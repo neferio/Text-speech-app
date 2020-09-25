@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.sec1{
+    padding:20px;
+    background-color: black;
+    text-align: center;
+    .box{
+        padding:20px;
+        color:white;
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        h5{
+            margin-left: 170px;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+.sec2{
+    padding:40px;
+    text-align: center;
+   .box{
+       background-color: black;
+       //padding: 50px;
+       padding-top: 60px;
+       padding-left: 150px;
+       padding-right: 150px;
+       margin-left: 80px;
+       margin-right: 80px;
+       padding-bottom: 60px;
+       .text1{
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+       }
+       #r1,#r2{
+        -webkit-appearance: none;  /* Override default CSS styles */
+        appearance: none;
+        width: 100%; /* Full-width */
+        height: 25px; /* Specified height */
+        background: #d3d3d3; /* Grey background */
+        outline: none; /* Remove outline */
+        opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+        -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+        transition: opacity .2s;
+        
+       }
+       #s1{
+           width:100%;
+           height:40px;
+           margin-top: 20px;
+       }
+       #pitch-value,#rate-value{
+        background-color:white;
+        width:30px;
+        margin-bottom: 10px;
+        float:right;
+        border-radius: 50%;
+
+        }
+
+       #b1{
+           width: 80%;
+           height:30px;
+           margin-top: 30px;
+       }
+   }
+}

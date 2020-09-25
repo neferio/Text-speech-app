@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sec1">
+        <div class="box">
+            <h2>Text to Speech</h2>
+            <h5>Using API</h5>
+        </div>
+    </div>
+
+    <div class="sec2">
+        <div class="box">
+            <form>
+                <div class="form-group">
+                    <textarea name="" id="t1" class="text1"
+                        placeholder="type anything"></textarea>
+                     
+                </div>
+
+                <div class="range">
+                    <h3 style="color:white; margin-top:10px">Rate</h3>
+                    <div id="rate-value">1</div>
+                    <input type="range" id="r1" class="rate" min="0.5" max="2" value="1" step="0.1">
+                </div>
+
+                <div class="range">
+                    <h3 style="color:white; margin-top:10px">Pitch</h3>
+                    <div id="pitch-value">1</div>
+                    <input type="range" id="r2" class="rate" min="0" max="2" value="1" step="0.1">
+                </div>
+
+                <div class="voices">
+                    <select id="s1" class="voice"></select>
+                </div>
+
+                <div class="but">
+                    <input type="submit" id="b1">Click</button> 
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
